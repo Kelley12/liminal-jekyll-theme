@@ -1,0 +1,12 @@
+# Config
+
+# Site settings
+url: https://domain.com # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+title: 
+description: > # this means to ignore newlines until "theme_color:"
+
+copyright: © 2019. All rights reserved.
+
+# Build settings
+markdown: kramdown
