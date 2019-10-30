@@ -1,0 +1,9 @@
+{% include body/nav.html %}
+{% include body/header.html %}
+
+{% for section in site.sections %}
+    {% include sections/{{section.filename}} %}
+{% endfor %}
+
+{% include body/contact.html %}
+{% include body/scripts.html %}
