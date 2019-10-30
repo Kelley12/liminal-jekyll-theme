@@ -6,6 +6,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 title: 
 description: > # this means to ignore newlines until "theme_color:"
 
+# This is used for the `theme-color` meta tag,
+# which changes the background color of the browser UI in certain browsers.
+theme_color: rgb(79,177,186) # or '#4fb1ba'
+
 # Home Sections
 sections:
   - title: Call To Action

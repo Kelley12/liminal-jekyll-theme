@@ -34,7 +34,7 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
+$theme-primary: {{ site.theme_color | default:'#4fb1ba' }};
 $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
