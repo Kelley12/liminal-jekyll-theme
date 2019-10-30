@@ -2,8 +2,13 @@
 {% include body/header.html %}
 
 {% for section in site.sections %}
-    {% include sections/{{section.filename}} %}
+    {% if section.css-class %}
+    <section id="{{section.title | downcase | replace: ' ', '-'}}" class="{{section.css-class}}">
+    {% else %}
+    <section id="{{section.title | downcase | replace: ' ', '-'}}">
+    {% endif %}
+        {% include sections/{{section.filename}} %}
+    </section>
 {% endfor %}
 
-{% include body/contact.html %}
 {% include body/scripts.html %}

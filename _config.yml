@@ -12,14 +12,19 @@ theme_color: rgb(79,177,186) # or '#4fb1ba'
 
 # Home Sections
 sections:
-  - title: Call To Action
+  - title: About
     filename: call-to-action.html
+    css-class: bg-primary
   - title: Services
     filename: services.html
   - title: Portfolio
     filename: portfolio.html
-  - title: Aside
+    css-class: no-padding
+  - title: Download
     filename: aside.html
+    css-class: no-padding
+  - title: Contact
+    filename: contact.html
 
 copyright: © 2019. All rights reserved.
 

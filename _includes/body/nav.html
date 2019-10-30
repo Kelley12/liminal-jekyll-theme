@@ -14,18 +14,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+                {% if page.section-type == "index" %} <!-- Scroll to section for each page in index -->
+                    {% for section in site.sections %}
+                        <li>
+                            <a class="page-scroll" href="#{{ section.title | downcase | replace: ' ', '-' }}"> {{section.title}} </a>
+                        </li>
+                    {% endfor %}
+                {% else %} <!-- Page, Blog, Post, Tag and Error pages -->
+                    {% for p in site.sections %}
+                        <li>
+                            <a href="{{site.baseurl}}/#{{ section.title | downcase | replace: ' ', '-' }}"> {{section.title}} </a>
+                        </li>
+                    {% endfor %}
+                {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
