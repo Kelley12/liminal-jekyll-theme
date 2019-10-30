@@ -1,11 +1,6 @@
-# liminal-jekyll-theme
+# Liminal Jekyll Theme ![Build Status](https://travis-ci.org/kelley12/liminal-jekyll-theme.svg?branch=master) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+A Jekyll implementation of the Creative Theme template by Start Bootstrap.
 
 ## Installation
 
