@@ -1,6 +1,7 @@
 # Config
 
 # Site settings
+language: en
 url: https://domain.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 title: 

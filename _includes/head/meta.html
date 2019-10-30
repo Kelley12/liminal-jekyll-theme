@@ -3,9 +3,7 @@
 <meta name="application-name" content="{{ site.title }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ page.description | default:site.description | markdownify | strip_html }}">
-{% unless site.hydejack.no_theme_color %}
-    <meta name="theme-color" content="{{ theme_color | default:'#193747' }}">
-{% endunless %}
+<meta name="theme-color" content="{{ theme_color | default:'#193747' }}">
 
 {% capture title %}
     {% if page.url == "/" %}
