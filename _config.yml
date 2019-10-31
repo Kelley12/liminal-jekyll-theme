@@ -37,5 +37,11 @@ copyright: © 2019. All rights reserved.
 #   - title:             Cookies Policy
 #     url:               /cookies-policy/
 
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Set your Google Analytics id to receive `pageview` events.
+# google_analytics:      UA-XXXXXXXX-X
+
 # Build settings
 markdown: kramdown
