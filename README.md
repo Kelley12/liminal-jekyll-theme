@@ -2,6 +2,8 @@
 
 A Jekyll implementation of the Creative Theme template by Start Bootstrap.
 
+![Screenshot](assets/img/screenshot.png)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
@@ -30,20 +32,41 @@ gem install liminal-jekyll-theme
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### Layouts
+
+#### Default
+
+The default theme is what is used for the main page
+
+### Includes
+
+The includes directory contains 3 folders: head, body, and sections
+
+#### Head
+
+The head directory contains
+
+#### Body
+
+The body directory contains
+
+#### Sections
+
+The sections directory contains
+
+### Assets
+
+Used to store images for the background images and the portfolio section if used
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Kelley12/liminal-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
 To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `liminal-jekyll-theme.gemspec` accordingly.
+The theme is setup just like a normal Jekyll site. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, the site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## License
 
