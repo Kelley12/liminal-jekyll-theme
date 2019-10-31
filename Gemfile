@@ -16,8 +16,5 @@ gem "jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-default-layout"
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
