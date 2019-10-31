@@ -1,6 +1,7 @@
 # Config
 
 # Site settings
+language: en
 url: https://domain.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 title: 
@@ -12,16 +13,35 @@ theme_color: rgb(79,177,186) # or '#4fb1ba'
 
 # Home Sections
 sections:
-  - title: Call To Action
+  - title: About
     filename: call-to-action.html
+    css-class: bg-primary
   - title: Services
     filename: services.html
   - title: Portfolio
     filename: portfolio.html
-  - title: Aside
+    css-class: no-padding
+  - title: Download
     filename: aside.html
+    css-class: no-padding
+  - title: Contact
+    filename: contact.html
 
 copyright: © 2019. All rights reserved.
+
+# Add links to the footer.
+# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+# legal:
+#   - title:             Impress
+#     url:               /impress/
+#   - title:             Cookies Policy
+#     url:               /cookies-policy/
+
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Set your Google Analytics id to receive `pageview` events.
+# google_analytics:      UA-XXXXXXXX-X
 
 # Build settings
 markdown: kramdown
