@@ -38,10 +38,17 @@ copyright: © 2019. All rights reserved.
 #     url:               /cookies-policy/
 
 # 3rd Party Integrations
-# ----------------------------------------------------------------------------------------
+# ========================================================================================
 
 # Set your Google Analytics id to receive `pageview` events.
 # google_analytics:      UA-XXXXXXXX-X
 
 # Build settings
+# ========================================================================================
 markdown: kramdown
+
+# Plugins
+# ========================================================================================
+
+plugins:
+  - jekyll-sitemap
