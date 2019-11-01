@@ -1,4 +1,4 @@
-# Liminal Jekyll Theme ![Build Status](https://travis-ci.org/kelley12/liminal-jekyll-theme.svg?branch=master) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
+# Liminal Jekyll Theme [![Build Status](https://travis-ci.org/kelley12/liminal-jekyll-theme.svg?branch=master)](https://travis-ci.org/kelley12/liminal-jekyll-theme/) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
 
 A Jekyll implementation of the Creative Theme template by Start Bootstrap.
 
