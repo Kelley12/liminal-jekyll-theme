@@ -18,6 +18,12 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: liminal-jekyll-theme
 ```
 
+If you are using this theme for GitHub pages, also ass this line to `_config.yml`:
+
+```yaml
+remote-theme: kelley12/liminal-jekyll-theme
+```
+
 And then execute:
 
 ```bash
