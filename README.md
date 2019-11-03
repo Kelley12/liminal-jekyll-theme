@@ -1,4 +1,4 @@
-# Liminal Jekyll Theme ![Build Status](https://travis-ci.org/kelley12/liminal-jekyll-theme.svg?branch=master) ![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
+# Liminal Jekyll Theme [![Build Status](https://travis-ci.com/kelley12/liminal-jekyll-theme.svg?branch=master)](https://travis-ci.com/kelley12/liminal-jekyll-theme/) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kelley12/liminal-jekyll-theme/blob/master/LICENSE)
 
 A Jekyll implementation of the Creative Theme template by Start Bootstrap.
 
@@ -16,6 +16,12 @@ And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: liminal-jekyll-theme
+```
+
+If you are using this theme for GitHub pages, also ass this line to `_config.yml`:
+
+```yaml
+remote-theme: kelley12/liminal-jekyll-theme
 ```
 
 And then execute:
